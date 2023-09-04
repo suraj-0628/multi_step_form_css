@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container{
+    height: 100vh;
+    background-color:rgb(223, 237, 250);
+    position: relative;
+}
+.inner-container{
+    height: 70vh;
+    width: 120vh;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px rgb(255, 255, 255);
+}
+.image{
+    float: left;
+}
+.image img{
+    height: 517.438px;
+    padding: 15px;
+}
+.content{
+    float: left;
+    margin:50px;
+}
+.content h1{
+    color: hsl(213, 96%, 18%);
+}
+.content p{
+    padding-top:10px ;
+    font-weight: 100;
+}
+.form{
+    float: left;
+    padding-top: 40px;
+
+}
+h4{ 
+    margin-top: 10px;
+    font-weight: 400;
+    color: hsl(213, 96%, 18%);
+    
+}
+
+#email{
+    padding: 10px ;
+    width: 230%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.button{
+    clear: both;
+}
+.button button{
+    margin-top: 50px;
+    float: right;
+    padding:10px ;
+    width: 100px;
+    border-radius: 10px;
+    background-color:  hsl(213, 96%, 18%);
+    color: white;
+}
+.img-content .button1{
+    position: absolute;
+    left: 20px;
+    border-style:double;
+    background-color: hsl(243, 100%, 62%);
+    color: white;
+    border-color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 200px;
+   
+}
+.button1:hover{
+    cursor: pointer;
+    background-color: rgb(194, 254, 254);
+    color: black;
+}
+.img-content p{
+    position: absolute;
+    left: 20px;
+    margin-top: 50px;
+    margin-left:8%;
+    font-size: 12px;
+    color:rgb(225, 225, 225);
+    font-weight: 100;
+}
+.img-content h2{
+    position: absolute;
+    left: 20px;
+    color: white;
+    margin-top: 68px;
+    margin-left:8%;
+    font-size: 12px;
+}
+
+.button04{
+    float:left;
+    margin-top: 19%;
+}
+.button02{
+    float: left;
+    margin-top: 6.5%;
+}
+.button03{
+    float: left;
+    margin-top: 13%;
+    
+}
